@@ -4,3 +4,7 @@
 # 2. Subtract 1 from the value of 'a'
 # 3. Return the decreased value
 # Example: if a=5, return 4
+def decrease_by_one(a):
+    a=a-1
+    return a
+print(decrease_by_one(5))
